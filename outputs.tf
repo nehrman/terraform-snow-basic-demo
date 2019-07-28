@@ -1,7 +1,7 @@
-outputs "titi_id" {
+output "titi_id" {
   value = "${module.id.titi}"
 }
 
-outputs "toto_id" {
+output "toto_id" {
   value = "${module.id.toto}"
 }
